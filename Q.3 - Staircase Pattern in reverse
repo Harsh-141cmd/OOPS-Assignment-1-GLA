@@ -1,0 +1,22 @@
+/*Question 3. Print the following staircase pattern using "*"-
+              *****
+              ****
+              ***
+              **
+              *
+*/
+
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // YOUR CODE GOES HERE
+        
+        System.out.println("*****");
+        System.out.println("****");
+        System.out.println("***");
+        System.out.println("**");
+        System.out.println("*");
+    }
+}
