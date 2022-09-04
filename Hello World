@@ -1,0 +1,12 @@
+// Question 1. Write a program in Java to print "Hello World!".
+
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // YOUR CODE GOES HERE
+        
+        System.out.print("Hello World!");
+    }
+}
