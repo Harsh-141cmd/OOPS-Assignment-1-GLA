@@ -1,0 +1,17 @@
+//Question 6. Print the Area of a Rectangle.
+
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // YOUR CODE GOES HERE
+        Scanner sc = new Scanner(System.in);
+        float area = 0;
+        float l = sc.nextFloat();
+        float b = sc.nextFloat();
+        
+        area = l*b;
+        System.out.println("The Area of a Rectangle is"+ area);
+    }
+}
