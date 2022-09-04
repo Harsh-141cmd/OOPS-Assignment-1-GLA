@@ -1,0 +1,16 @@
+//Question 4. Print the Perimeter of a Square.
+
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // YOUR CODE GOES HERE
+        Scanner sc = new Scanner(System.in);
+        float square = 0;
+        float a = sc.nextFloat();
+        
+        square = 4*a;
+        System.out.println("The perimeter of a square is"+ square);
+    }
+}
